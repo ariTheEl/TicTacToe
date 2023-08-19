@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.background {
+    background-color: #121818;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 10%;
+}
+
+.display {
+    color: #f0f0f0;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile {
+    border: 1px solid #f0f0f0;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.active {
+    color: #090b;
+}
+
+.player0 {
+    color: #498afb;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    font-size: 2em;
+}
+
+.xscore {
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.oscore {
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#reset {
+    background-color: #f80939;
+    color: #f0f0f0;
+    padding: 0.8em;
+    border-radius: 0.8em;
+    border: none;
+    font-size: 2em;
+    font-family: cursive;
+    margin-left: 1em;
+    cursor: pointer;
+}
